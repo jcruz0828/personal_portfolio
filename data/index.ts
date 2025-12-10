@@ -151,6 +151,14 @@ export const projects = [
 export const workExperience = [
   {
     id: 1,
+    title: "Full Stack Software Engineer – Capital One, Richmond, VA",
+    desc: `Full Stack Software Engineer at Capital One, contributing to innovative financial technology solutions and software development initiatives. Built and maintained web applications using React, Node.js, and PostgreSQL to enhance customer experience and streamline internal processes. Collaborated with cross-functional teams to deliver scalable, high-performance solutions that drive business growth and efficiency.`,
+    className: "md:col-span-2",
+    thumbnail: "/cap1.png",
+    href: "https://www.capitalone.com",
+  },
+  {
+    id: 2,
     title: "Software Engineer – Bank of New York, Pittsburgh, PA",
     desc: `Assisted in developing VAIA, a full-stack B2B disbursement suite on Spring Boot, Angular, and Oracle SQL, containerized and deployed to Google App Engine microservices. Integrated secure OAuth 2.0 flows and REST APIs to route high-volume payouts via ACH, RTP, Zelle, push-to-card, MoCaFi prepaid cards, and paper checks under U.S. compliance standards. Refactored heavy SQL queries and asynchronous endpoints, boosting backend throughput and cutting report-generation latency by 40% during peak transaction windows.`,
     className: "md:col-span-2",
@@ -158,7 +166,7 @@ export const workExperience = [
     href: "https://www.bny.com/corporate/global/en/careers/our-teams.html",
   },
   {
-    id: 2,
+    id: 3,
     title: "Robotics Researcher – XrealLabs, California State University, San Bernardino",
     desc: `Engineered autonomy and control software for the Trossen Aloha Mobile Robot, enabling chair repositioning using ROS, Python, and OpenCV with real-time video processing and synchronized actuator control. Trained teleoperation-based behavioral models using Stanford datasets and in-house trials, optimizing control latency, motion smoothness, and feedback accuracy for robust indoor navigation in dynamic environments. Conducted over 50 autonomous trials with a >80% success rate.`,
     className: "md:col-span-2",
@@ -166,7 +174,7 @@ export const workExperience = [
     href: "https://www.csusb.edu",
   },
   {
-    id: 3,
+    id: 4,
     title: "Machine Learning Researcher – California State University, San Bernardino",
     desc: `Led ML studies on 956 samples × 54,453 gene tokens, merging GeneFormer embeddings, z-score scaling, PCA, and Sparse Simplex graphs to map functional similarity across complex neuroanatomy. Built and finetuned Graph Neural Network (GNN) models in PyTorch Geometric, using GeneFormer features to flag key patterns linked to Alzheimer's, epilepsy, and other neurodegenerative disorders. Engineered end-to-end Python pipelines revealing 12 disease-linked modules in high-dimensional data.`,
     className: "md:col-span-2",
@@ -174,7 +182,7 @@ export const workExperience = [
     href: "https://www.csusb.edu",
   },
   {
-    id: 4,
+    id: 5,
     title: "Robotics Engineer (M-STAR Program) – College of the Desert, Palm Desert, CA",
     desc: `Programmed ESP32 microcontrollers in C for real-time control of robotic systems, integrating UART communication, PWM motor drivers, and multi-sensor data acquisition for responsive actuation in dynamic environments. Built inverse kinematic control algorithms to improve robotic arm precision, optimize trajectory planning, and maintain joint stability under variable loads. Integrated Google Speech-to-Text with OpenAI GPT-4 to enable intelligent voice-based control, translating natural language commands into robotic actions.`,
     className: "md:col-span-2",

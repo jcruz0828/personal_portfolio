@@ -149,14 +149,7 @@ export const projects = [
 
 
 export const workExperience = [
-  {
-    id: 1,
-    title: "Full Stack Software Engineer – Capital One, Richmond, VA",
-    desc: `Full Stack Software Engineer at Capital One, contributing to innovative financial technology solutions and software development initiatives. Built and maintained web applications using React, Node.js, and PostgreSQL to enhance customer experience and streamline internal processes. Collaborated with cross-functional teams to deliver scalable, high-performance solutions that drive business growth and efficiency.`,
-    className: "md:col-span-2",
-    thumbnail: "/cap1.png",
-    href: "https://www.capitalone.com",
-  },
+
   {
     id: 2,
     title: "Software Engineer – Bank of New York, Pittsburgh, PA",

@@ -1,9 +1,12 @@
 import { Marquee } from "./ui/marquee";
 
 const techStack = [
-  { name: "Python", img: "/python.svg" },
-  { name: "JavaScript", img: "/js.svg" },
   { name: "Java", img: "/java.svg" },
+  { name: "Python", img: "/python.svg" },
+  { name: "TypeScript", img: "/ts.svg" },
+  { name: "Next.js", img: "/next.svg" },
+  { name: "Angular", img: "/angular.png" },
+  { name: "JavaScript", img: "/js.svg" },
   { name: "C++", img: "/cpp.svg" },
   { name: "C", img: "/cs.svg" },
   { name: "R", img: "/r.svg" },
@@ -14,7 +17,6 @@ const techStack = [
   { name: "MongoDB", img: "/mongodb.svg" },
   { name: "HTML", img: "/html.svg" },
   { name: "CSS", img: "/css.svg" },
-  { name: "Bootstrap", img: "/bootstrap.svg" },
   { name: "Pandas", img: "/pandas.svg" },
   { name: "NumPy", img: "/numpy.svg" },
   { name: "Docker", img: "/dock.svg" },
@@ -22,7 +24,6 @@ const techStack = [
   { name: "Three.js", img: "/three.svg" },
   { name: "GSAP", img: "/gsap.svg" },
   { name: "Tailwind", img: "/tail.svg" },
-  { name: "MIPS Assembly", img: "/mips.png" },
 ];
 
 const TechCard = ({ name, icon }: { name: string; icon: string }) => {

@@ -4,7 +4,7 @@ const educationData = [
   {
     id: 1,
     title: "California State University, San Bernardino",
-    degree: "B.S. in Computer Engineering",
+    degree: "B.S. in Computer Engineering · Class of 2026",
     gpa: "3.9/4.0",
     courses: [
       "Embedded Systems",

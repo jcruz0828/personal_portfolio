@@ -21,7 +21,7 @@ const Footer = () => {
           presence to the next level?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-        Let&apos;s connect and explore how my skills in software engineering, robotics, and digital innovation can drive your success.
+        Let&apos;s connect, whether it&apos;s an engineering role, a research collaboration, or a website for your business.
         </p>
         <a href="mailto:jcoytfined@icloud.com">
           <MagicButton
@@ -33,7 +33,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Jose Coyt
+          Copyright © {new Date().getFullYear()} Jose Coyt
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">

@@ -26,14 +26,14 @@ const Hero = () => {
         <div className="flex justify-center relative my-20 z-10">
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex items-center flex-col justify-center">
             <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80"> 
-            Software Development & Engineering Excellence
+            Software Engineer · Agentic AI · Full-Stack
             </h2>
             <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
             words="Building Tomorrow's Technology, Today!"
             />
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I'm Jose Coyt from Indio, CA. I'm a Computer Engineering student at California State University, San Bernardino (CSUSB) with expertise in software development, robotics, and machine learning.
+            Hi, I'm Jose Coyt, a Software Engineer at Capital One in Dallas, TX, building MCP integrations for enterprise agentic AI. I'm a Computer Engineering graduate of CSUSB with a background in full-stack development, robotics, and machine learning research.
             </p>
             <a href="https://github.com/jcruz0828">
               <MagicButton

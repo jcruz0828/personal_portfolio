@@ -34,31 +34,54 @@ const Experience = () => {
                     <div className="flex-shrink-0">
                       <div className="relative">
                         <div className="absolute -inset-1 bg-gradient-to-r from-[#00BFFF] to-purple-600 rounded-xl blur opacity-0 group-hover:opacity-30 transition duration-500"></div>
-                        <img
-                          src={card.thumbnail}
-                          alt={card.title}
-                          className="relative lg:w-24 md:w-20 w-16 rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-300"
-                        />
+                        {card.thumbnail ? (
+                          <img
+                            src={card.thumbnail}
+                            alt={card.company}
+                            className="relative lg:w-24 md:w-20 w-16 rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-300"
+                          />
+                        ) : (
+                          <div className="relative lg:w-24 md:w-20 w-16 aspect-square rounded-xl shadow-lg bg-[#10132E] border border-[#00BFFF]/30 flex items-center justify-center text-2xl lg:text-3xl font-bold text-[#00BFFF]">
+                            {card.company.charAt(0)}
+                          </div>
+                        )}
                       </div>
                     </div>
                     
                     {/* Content */}
                     <div className="flex-1 space-y-4">
-                      <div>
-                        <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-white group-hover:text-[#00BFFF] transition-colors duration-300 leading-tight">
-                          {card.title}
-                        </h2>
+                      <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+                        <div>
+                          <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-white group-hover:text-[#00BFFF] transition-colors duration-300 leading-tight">
+                            {card.role}
+                          </h2>
+                          <p className="text-[#00BFFF] font-semibold text-sm md:text-base mt-1">
+                            {card.company}
+                          </p>
+                        </div>
+                        <div className="md:text-right flex-shrink-0">
+                          <p className="text-gray-300 text-sm font-medium">{card.dates}</p>
+                          <p className="text-gray-500 text-xs mt-1">{card.location}</p>
+                        </div>
                       </div>
                       
                       <p className="text-gray-300 text-sm md:text-base leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
                         {card.desc}
                       </p>
                       
-                      {/* Experience badge */}
-                      <div className="flex items-center gap-2">
+                      {/* Type badge + tech chips */}
+                      <div className="flex flex-wrap items-center gap-2">
                         <div className="px-3 py-1 bg-[#00BFFF]/20 border border-[#00BFFF]/30 rounded-full">
-                          <span className="text-xs font-medium text-[#00BFFF]">Professional Experience</span>
+                          <span className="text-xs font-medium text-[#00BFFF]">{card.type}</span>
                         </div>
+                        {card.tech.map((tech) => (
+                          <span
+                            key={tech}
+                            className="bg-slate-800/80 border border-slate-600/50 px-3 py-1 rounded-full text-xs text-gray-300"
+                          >
+                            {tech}
+                          </span>
+                        ))}
                       </div>
                     </div>
                   </div>
